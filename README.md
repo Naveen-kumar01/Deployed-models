@@ -6,7 +6,7 @@ Step 2: Second step would be to write a python flask server that uses the saved 
 
 Step 3: Third component is the website built in html, css and javascript that allows user to enter home square ft area, bedrooms etc and it will call python flask server to retrieve the predicted price.
 
-Step 4: Deployment on AWS
+Step 4: Deployment on Heroku
 
 All the model contain pipeline implementation on the model, the user just have to enter the required field and the data 
 will automatically be Scaled and Transformed using the encoding libraries present in the sklearn library and then the pipeline 
